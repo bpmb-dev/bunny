@@ -1,5 +1,5 @@
 <?php
-namespace Bunny;
+namespace BunnyRabbit;
 
 /**
  * Convenience crate for transferring messages through app.

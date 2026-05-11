@@ -1,5 +1,5 @@
 <?php
-namespace Bunny\Protocol;
+namespace BunnyRabbit\Protocol;
 
 use Bunny\Constants;
 use Bunny\Exception\InvalidClassException;

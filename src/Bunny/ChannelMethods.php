@@ -1,5 +1,5 @@
 <?php
-namespace Bunny;
+namespace BunnyRabbit;
 
 use Bunny\Protocol;
 use React\Promise;

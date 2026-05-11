@@ -1,6 +1,6 @@
 <?php
 
-namespace Bunny;
+namespace BunnyRabbit;
 
 use Bunny\Exception\ClientException;
 use Bunny\Protocol\AbstractFrame;

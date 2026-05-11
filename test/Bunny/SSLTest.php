@@ -1,6 +1,6 @@
 <?php
 
-namespace Bunny;
+namespace BunnyRabbit;
 
 use Bunny\Async\Client as AsyncClient;
 use Bunny\Exception\ClientException;

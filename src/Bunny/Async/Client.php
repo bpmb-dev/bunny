@@ -1,5 +1,5 @@
 <?php
-namespace Bunny\Async;
+namespace BunnyRabbit\Async;
 
 use Bunny\AbstractClient;
 use Bunny\ClientStateEnum;

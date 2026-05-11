@@ -1,5 +1,5 @@
 <?php
-namespace Bunny;
+namespace BunnyRabbit;
 
 use Bunny\Protocol\ContentHeaderFrame;
 
@@ -136,7 +136,7 @@ function amqpTypeToLength($type, $e)
 }
 
 $protocolReaderContent = "<?php\n";
-$protocolReaderContent .= "namespace Bunny\\Protocol;\n";
+$protocolReaderContent .= "namespace BunnyRabbit\\Protocol;\n";
 $protocolReaderContent .= "\n";
 $protocolReaderContent .= "use Bunny\\Constants;\n";
 $protocolReaderContent .= "use Bunny\\Exception\\InvalidClassException;\n";
@@ -183,7 +183,7 @@ $consumeMethodFrameContent .= "\n";
 $consumeMethodFrameContent .= "        ";
 
 $protocolWriterContent = "<?php\n";
-$protocolWriterContent .= "namespace Bunny\\Protocol;\n";
+$protocolWriterContent .= "namespace BunnyRabbit\\Protocol;\n";
 $protocolWriterContent .= "\n";
 $protocolWriterContent .= "use Bunny\\Exception\\ProtocolException;\n";
 $protocolWriterContent .= "\n";
@@ -244,7 +244,7 @@ $appendMethodFrameContent .= "\n";
 $appendMethodFrameContent .= "        ";
 
 $clientMethodsContent = "<?php\n";
-$clientMethodsContent .= "namespace Bunny;\n";
+$clientMethodsContent .= "namespace BunnyRabbit;\n";
 $clientMethodsContent .= "\n";
 $clientMethodsContent .= "use Bunny\\Exception\\ClientException;\n";
 $clientMethodsContent .= "use Bunny\\Protocol;\n";
@@ -417,7 +417,7 @@ $clientMethodsContent .= "        throw new \\LogicException('This statement sho
 $clientMethodsContent .= "    }\n\n";
 
 $channelMethodsContent = "<?php\n";
-$channelMethodsContent .= "namespace Bunny;\n";
+$channelMethodsContent .= "namespace BunnyRabbit;\n";
 $channelMethodsContent .= "\n";
 $channelMethodsContent .= "use Bunny\\Protocol;\n";
 $channelMethodsContent .= "use React\\Promise;\n";
@@ -457,7 +457,7 @@ foreach ($spec->classes as $class) {
     foreach ($class->methods as $method) {
         $className = "Method" . ucfirst($class->name) . dashedToCamel($method->name) . "Frame";
         $content = "<?php\n";
-        $content .= "namespace Bunny\\Protocol;\n";
+        $content .= "namespace BunnyRabbit\\Protocol;\n";
         $content .= "\n";
         $content .= "use Bunny\\Constants;\n";
         $content .= "\n";

@@ -1,5 +1,5 @@
 <?php
-namespace Bunny\Protocol;
+namespace BunnyRabbit\Protocol;
 
 /**
  * Base class for all AMQP protocol frames.

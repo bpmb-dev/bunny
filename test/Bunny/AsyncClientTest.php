@@ -4,7 +4,7 @@
 
 declare(strict_types=1);
 
-namespace Bunny;
+namespace BunnyRabbit;
 
 use Bunny\Async\Client;
 use Bunny\Exception\ClientException;

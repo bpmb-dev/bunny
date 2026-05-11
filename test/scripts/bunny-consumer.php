@@ -5,7 +5,7 @@
 
 declare(strict_types=1);
 
-namespace Bunny\Test\App;
+namespace BunnyRabbit\Test\App;
 
 use Bunny\Channel;
 use Bunny\Client;

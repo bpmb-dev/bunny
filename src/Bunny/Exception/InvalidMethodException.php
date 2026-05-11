@@ -1,5 +1,5 @@
 <?php
-namespace Bunny\Exception;
+namespace BunnyRabbit\Exception;
 
 /**
  * Peer sent frame with invalid method id.

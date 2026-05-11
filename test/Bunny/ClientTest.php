@@ -4,7 +4,7 @@
 
 declare(strict_types=1);
 
-namespace Bunny;
+namespace BunnyRabbit;
 
 use Bunny\Exception\ChannelException;
 use Bunny\Exception\ClientException;

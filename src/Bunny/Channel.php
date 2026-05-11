@@ -1,5 +1,5 @@
 <?php
-namespace Bunny;
+namespace BunnyRabbit;
 
 use Bunny\Exception\ChannelException;
 use Bunny\Protocol\AbstractFrame;
