@@ -1,7 +1,7 @@
 <?php
-namespace Bunny\Protocol;
+namespace BunnyRabbit\Protocol;
 
-use Bunny\Constants;
+use BunnyRabbit\Constants;
 
 /**
  * Content body AMQP frame.

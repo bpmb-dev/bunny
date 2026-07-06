@@ -40,14 +40,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Bunny\\": "src/Bunny/"
+            "BunnyRabbit\\": "src/Bunny/"
         }
     },
     "autoload-dev": {
         "files": ["test/Library/functions.php"],
         "psr-4": {
-            "Bunny\\": "test/Bunny/",
-            "Bunny\\Test\\Library\\": "test/Library/"
+            "BunnyRabbit\\": "test/Bunny/",
+            "BunnyRabbit\\Test\\Library\\": "test/Library/"
         }
     }
 }

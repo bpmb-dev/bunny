@@ -1,7 +1,7 @@
 <?php
-namespace Bunny\Protocol;
+namespace BunnyRabbit\Protocol;
 
-use Bunny\Constants;
+use BunnyRabbit\Constants;
 
 /**
  * AMQP 'basic.deliver' (class #60, method #60) frame.

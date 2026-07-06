@@ -1,7 +1,7 @@
 <?php
-namespace Bunny\Protocol;
+namespace BunnyRabbit\Protocol;
 
-use Bunny\Constants;
+use BunnyRabbit\Constants;
 
 /**
  * AMQP 'tx.rollback-ok' (class #90, method #31) frame.

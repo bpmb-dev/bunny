@@ -1,9 +1,9 @@
 <?php
-namespace Bunny;
+namespace BunnyRabbit;
 
-use Bunny\Exception\ClientException;
-use Bunny\Protocol;
-use Bunny\Protocol\Buffer;
+use BunnyRabbit\Exception\ClientException;
+use BunnyRabbit\Protocol;
+use BunnyRabbit\Protocol\Buffer;
 use React\Promise\Deferred;
 use React\Promise\PromiseInterface;
 

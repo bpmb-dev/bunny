@@ -1,9 +1,9 @@
 <?php
-namespace Bunny\Protocol;
+namespace BunnyRabbit\Protocol;
 
-use Bunny\Constants;
-use Bunny\Exception\InvalidClassException;
-use Bunny\Exception\InvalidMethodException;
+use BunnyRabbit\Constants;
+use BunnyRabbit\Exception\InvalidClassException;
+use BunnyRabbit\Exception\InvalidMethodException;
 
 /**
  * AMQP-0-9-1 protocol reader

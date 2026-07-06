@@ -1,18 +1,18 @@
 <?php
-namespace Bunny;
+namespace BunnyRabbit;
 
-use Bunny\Exception\ClientException;
-use Bunny\Protocol\AbstractFrame;
-use Bunny\Protocol\Buffer;
-use Bunny\Protocol\ContentBodyFrame;
-use Bunny\Protocol\ContentHeaderFrame;
-use Bunny\Protocol\HeartbeatFrame;
-use Bunny\Protocol\MethodChannelOpenOkFrame;
-use Bunny\Protocol\MethodConnectionCloseFrame;
-use Bunny\Protocol\MethodConnectionStartFrame;
-use Bunny\Protocol\MethodFrame;
-use Bunny\Protocol\ProtocolReader;
-use Bunny\Protocol\ProtocolWriter;
+use BunnyRabbit\Exception\ClientException;
+use BunnyRabbit\Protocol\AbstractFrame;
+use BunnyRabbit\Protocol\Buffer;
+use BunnyRabbit\Protocol\ContentBodyFrame;
+use BunnyRabbit\Protocol\ContentHeaderFrame;
+use BunnyRabbit\Protocol\HeartbeatFrame;
+use BunnyRabbit\Protocol\MethodChannelOpenOkFrame;
+use BunnyRabbit\Protocol\MethodConnectionCloseFrame;
+use BunnyRabbit\Protocol\MethodConnectionStartFrame;
+use BunnyRabbit\Protocol\MethodFrame;
+use BunnyRabbit\Protocol\ProtocolReader;
+use BunnyRabbit\Protocol\ProtocolWriter;
 use InvalidArgumentException;
 use React\Promise;
 

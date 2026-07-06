@@ -1,5 +1,5 @@
 <?php
-namespace Bunny\Exception;
+namespace BunnyRabbit\Exception;
 
 /**
  * Error on client (connection) level.

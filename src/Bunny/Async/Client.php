@@ -1,12 +1,12 @@
 <?php
-namespace Bunny\Async;
+namespace BunnyRabbit\Async;
 
-use Bunny\AbstractClient;
-use Bunny\ClientStateEnum;
-use Bunny\Exception\ClientException;
-use Bunny\Protocol\HeartbeatFrame;
-use Bunny\Protocol\MethodConnectionStartFrame;
-use Bunny\Protocol\MethodConnectionTuneFrame;
+use BunnyRabbit\AbstractClient;
+use BunnyRabbit\ClientStateEnum;
+use BunnyRabbit\Exception\ClientException;
+use BunnyRabbit\Protocol\HeartbeatFrame;
+use BunnyRabbit\Protocol\MethodConnectionStartFrame;
+use BunnyRabbit\Protocol\MethodConnectionTuneFrame;
 use React\EventLoop\Factory;
 use React\EventLoop\LoopInterface;
 use React\EventLoop\Timer\Timer;
@@ -21,7 +21,7 @@ use React\Promise;
  *
  * Usage:
  *
- *     $c = new Bunny\Async\Client([
+ *     $c = new BunnyRabbit\Async\Client([
  *         "host" => "127.0.0.1",
  *         "port" => 5672,
  *         "vhost" => "/",
@@ -31,7 +31,7 @@ use React\Promise;
  *
  *     // $c->connect() returns React\Promise\PromiseInterface
  *
- *     $c->connect()->then(function(Bunny\Async\Client $c) {
+ *     $c->connect()->then(function(BunnyRabbit\Async\Client $c) {
  *         // work with connected client
  *
  *     }, function ($e) {
@@ -282,7 +282,7 @@ class Client extends AbstractClient
     /**
      * Adds callback to process incoming frames.
      *
-     * Callback is passed instance of {@link \Bunny\Protocol|AbstractFrame}. If callback returns TRUE, frame is said to
+     * Callback is passed instance of {@link \BunnyRabbit\Protocol|AbstractFrame}. If callback returns TRUE, frame is said to
      * be handled and further handlers (other await callbacks, default handler) won't be called.
      *
      * @param callable $callback

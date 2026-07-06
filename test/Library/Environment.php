@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bunny\Test\Library;
+namespace BunnyRabbit\Test\Library;
 
 final class Environment
 {

@@ -1,22 +1,22 @@
 <?php
-namespace Bunny;
+namespace BunnyRabbit;
 
-use Bunny\Exception\ChannelException;
-use Bunny\Protocol\AbstractFrame;
-use Bunny\Protocol\Buffer;
-use Bunny\Protocol\ContentBodyFrame;
-use Bunny\Protocol\ContentHeaderFrame;
-use Bunny\Protocol\HeartbeatFrame;
-use Bunny\Protocol\MethodBasicAckFrame;
-use Bunny\Protocol\MethodBasicConsumeOkFrame;
-use Bunny\Protocol\MethodBasicDeliverFrame;
-use Bunny\Protocol\MethodBasicGetEmptyFrame;
-use Bunny\Protocol\MethodBasicGetOkFrame;
-use Bunny\Protocol\MethodBasicNackFrame;
-use Bunny\Protocol\MethodBasicReturnFrame;
-use Bunny\Protocol\MethodChannelCloseFrame;
-use Bunny\Protocol\MethodChannelCloseOkFrame;
-use Bunny\Protocol\MethodFrame;
+use BunnyRabbit\Exception\ChannelException;
+use BunnyRabbit\Protocol\AbstractFrame;
+use BunnyRabbit\Protocol\Buffer;
+use BunnyRabbit\Protocol\ContentBodyFrame;
+use BunnyRabbit\Protocol\ContentHeaderFrame;
+use BunnyRabbit\Protocol\HeartbeatFrame;
+use BunnyRabbit\Protocol\MethodBasicAckFrame;
+use BunnyRabbit\Protocol\MethodBasicConsumeOkFrame;
+use BunnyRabbit\Protocol\MethodBasicDeliverFrame;
+use BunnyRabbit\Protocol\MethodBasicGetEmptyFrame;
+use BunnyRabbit\Protocol\MethodBasicGetOkFrame;
+use BunnyRabbit\Protocol\MethodBasicNackFrame;
+use BunnyRabbit\Protocol\MethodBasicReturnFrame;
+use BunnyRabbit\Protocol\MethodChannelCloseFrame;
+use BunnyRabbit\Protocol\MethodChannelCloseOkFrame;
+use BunnyRabbit\Protocol\MethodFrame;
 use React\Promise\Deferred;
 use React\Promise\PromiseInterface;
 

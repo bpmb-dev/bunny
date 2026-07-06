@@ -1,7 +1,7 @@
 <?php
-namespace Bunny\Protocol;
+namespace BunnyRabbit\Protocol;
 
-use Bunny\Exception\BufferUnderflowException;
+use BunnyRabbit\Exception\BufferUnderflowException;
 
 /**
  * Binary buffer implementation.

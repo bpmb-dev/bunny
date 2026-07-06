@@ -1,5 +1,5 @@
 <?php
-namespace Bunny\Protocol;
+namespace BunnyRabbit\Protocol;
 
 /**
  * Base class for all AMQP protocol frames.
@@ -7,7 +7,7 @@ namespace Bunny\Protocol;
  * Frame classes' sole purpose is to be crate for transferring data. All fields are public because of calls to getters
  * and setters are ridiculously slow.
  *
- * You should not mangle with frame's fields, everything should be handled by classes in {@namespace \Bunny\Protocol}.
+ * You should not mangle with frame's fields, everything should be handled by classes in {@namespace \BunnyRabbit\Protocol}.
  *
  * Frame's wire format:
  *

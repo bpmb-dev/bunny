@@ -1,5 +1,5 @@
 <?php
-namespace Bunny;
+namespace BunnyRabbit;
 
 /**
  * Mode of AMQP channel (normal, transactional, confirm mode).

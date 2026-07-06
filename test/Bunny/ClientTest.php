@@ -4,15 +4,15 @@
 
 declare(strict_types=1);
 
-namespace Bunny;
+namespace BunnyRabbit;
 
-use Bunny\Exception\ChannelException;
-use Bunny\Exception\ClientException;
-use Bunny\Protocol\MethodBasicAckFrame;
-use Bunny\Protocol\MethodBasicReturnFrame;
-use Bunny\Test\Library\Environment;
-use Bunny\Test\Library\Paths;
-use Bunny\Test\Library\SynchronousClientHelper;
+use BunnyRabbit\Exception\ChannelException;
+use BunnyRabbit\Exception\ClientException;
+use BunnyRabbit\Protocol\MethodBasicAckFrame;
+use BunnyRabbit\Protocol\MethodBasicReturnFrame;
+use BunnyRabbit\Test\Library\Environment;
+use BunnyRabbit\Test\Library\Paths;
+use BunnyRabbit\Test\Library\SynchronousClientHelper;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Process\Exception\ProcessFailedException;
 use Symfony\Component\Process\Process;

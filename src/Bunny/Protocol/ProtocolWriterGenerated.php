@@ -1,7 +1,7 @@
 <?php
-namespace Bunny\Protocol;
+namespace BunnyRabbit\Protocol;
 
-use Bunny\Exception\ProtocolException;
+use BunnyRabbit\Exception\ProtocolException;
 
 
 /**

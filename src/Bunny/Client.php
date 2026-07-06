@@ -1,10 +1,10 @@
 <?php
 
-namespace Bunny;
+namespace BunnyRabbit;
 
-use Bunny\Exception\ClientException;
-use Bunny\Protocol\AbstractFrame;
-use Bunny\Protocol\HeartbeatFrame;
+use BunnyRabbit\Exception\ClientException;
+use BunnyRabbit\Protocol\AbstractFrame;
+use BunnyRabbit\Protocol\HeartbeatFrame;
 use React\Promise;
 
 /**
@@ -16,7 +16,7 @@ use React\Promise;
  *
  * Usage:
  *
- *     $c = new Bunny\Client([
+ *     $c = new BunnyRabbit\Client([
  *         "host" => "127.0.0.1",
  *         "port" => 5672,
  *         "vhost" => "/",

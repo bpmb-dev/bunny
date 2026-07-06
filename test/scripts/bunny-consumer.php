@@ -5,13 +5,13 @@
 
 declare(strict_types=1);
 
-namespace Bunny\Test\App;
+namespace BunnyRabbit\Test\App;
 
-use Bunny\Channel;
-use Bunny\Client;
-use Bunny\Message;
+use BunnyRabbit\Channel;
+use BunnyRabbit\Client;
+use BunnyRabbit\Message;
 
-use function Bunny\Test\Library\parseAmqpUri;
+use function BunnyRabbit\Test\Library\parseAmqpUri;
 
 require __DIR__ . '/../../vendor/autoload.php';
 

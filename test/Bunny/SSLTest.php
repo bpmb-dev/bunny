@@ -1,13 +1,13 @@
 <?php
 
-namespace Bunny;
+namespace BunnyRabbit;
 
-use Bunny\Async\Client as AsyncClient;
-use Bunny\Exception\ClientException;
-use Bunny\Test\Exception\TimeoutException;
-use Bunny\Test\Library\AsynchronousClientHelper;
-use Bunny\Test\Library\Environment;
-use Bunny\Test\Library\SynchronousClientHelper;
+use BunnyRabbit\Async\Client as AsyncClient;
+use BunnyRabbit\Exception\ClientException;
+use BunnyRabbit\Test\Exception\TimeoutException;
+use BunnyRabbit\Test\Library\AsynchronousClientHelper;
+use BunnyRabbit\Test\Library\Environment;
+use BunnyRabbit\Test\Library\SynchronousClientHelper;
 use PHPUnit\Framework\TestCase;
 
 use React\EventLoop\Factory;

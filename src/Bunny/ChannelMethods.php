@@ -1,7 +1,7 @@
 <?php
-namespace Bunny;
+namespace BunnyRabbit;
 
-use Bunny\Protocol;
+use BunnyRabbit\Protocol;
 use React\Promise;
 
 /**
